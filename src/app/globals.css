@@ -1,0 +1,17 @@
+:root{
+  --black: #000000;
+  --red: #eb4c6b;
+  --background-white: #ffffff;
+  --background-color: #e5e5e5;
+  --text-color: #252020;
+  --yellow: #efd543dd;
+  --grey-color: #888792;
+  --light-white: #bfc8cd;
+  --font-family: Simplon Norm, sans-serif;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}

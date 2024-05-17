@@ -1,0 +1,69 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  height: 300px;
+
+  justify-content: center;
+  align-items: center;
+
+  overflow: hidden;
+}
+.image {
+  width: 150px;
+  height: 150px;
+  padding: 10px;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-top: 50px;
+}
+.description {
+  width: Fixed (300px) px;
+  height: Hug (47px) px;
+  gap: 8px;
+  display: flex;
+  flex-direction: column;
+  margin-top: 5px;
+}
+.text {
+  font-family: var(--font-family);
+  font-size: 18px;
+  font-weight: 700;
+
+  color: var(--text-color);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.subLine {
+  font-size: 12px;
+  display: flex;
+  align-items: center; /* Align items vertically center */
+}
+
+.subLine span {
+  margin-right: 5px; /* Add space between the spans */
+}
+
+.figure {
+  width: 300px;
+  height: 389px;
+
+  position: relative;
+}
+
+@media screen and (max-width: "750px") {
+}
+
+@media screen and (max-width: "450px") {
+  .card {
+    flex: 1;
+  }
+
+  .description {
+    width: 168px;
+    height: 45px;
+    gap: 4px;
+  }
+}
